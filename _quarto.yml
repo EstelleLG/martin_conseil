@@ -3,20 +3,37 @@ project:
   output-dir: docs
 
 website:
-  title: "martin_conseil"
+  title: "Martin Conseil"
+  favicon: images/favicon.png
   navbar:
-    left:
+    title: false
+    logo: images/logo_martin_conseil.png
+    logo-alt: "Habitologue"
+    right:
       - href: index.qmd
-        text: Home
-      - about.qmd
-
+        text: Accueil
+      - href: about.qmd
+        text: A propos
+      - href: temoignage.qmd
+        text: Vos témoignages
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/posts/martin-le-genissel-a2127133a_martin-conseil-habitologue-share-7274807159136174080-A9QH/
+        target: _blank
+    left:
+      - href: pdf/mentions_legales.pdf
+        text: Mentions légales
+        target: _blank
+  page-footer:
+    background: light
+    left: MLG Conseil - Siret 933 649 113 00018
+    right: 'Ce site a été créé avec {{< fa heart title="a heart" >}} par ma femme'
+        
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: styles.scss
+    mainfont: Playfair Display
     toc: true
-
+    page-layout: full
 editor: visual
 

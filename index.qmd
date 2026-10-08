@@ -1,11 +1,15 @@
 ---
 title: "martin_conseil"
+image: images/logo_martin_conseil.png
+toc: false
+about:
+  template: jolla
+  image-shape: rectangle
+  image-width: 18em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/posts/martin-le-genissel-a2127133a_martin-conseil-habitologue-share-7274807159136174080-A9QH/
+      target: _blank
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```

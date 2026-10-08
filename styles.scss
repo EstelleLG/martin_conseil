@@ -1,0 +1,45 @@
+/*-- scss:defaults --*/
+
+//import de la police
+
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+// Charte graphique du site 
+
+$kaki: #858E79;
+$kaki-clair: #D1D9CE;
+$blanc: #FDFBF7;
+$gris: #64605f;
+$terracotta: #BF613B;
+$beige: #FFCC99;
+
+// Couleurs de base du site
+$navbar-bg: $blanc; // navbar
+$navbar-fg: $kaki; // navbar foreground elements
+$navbar-hl: $terracotta; // highlight color when hovering over navbar links
+$body-bg: $kaki-clair; // page background 
+$body-color: $gris; // page text 
+$footer-bg: $blanc; // footer 
+$link-color: $terracotta; // hyperlinks 
+
+// Inline code
+$code-bg: $blanc; // inline code background color
+$code-color: $terracotta; // inline code text color
+
+/*-- scss:rules --*/
+
+.navbar-brand img { 
+  max-height: 150px;
+  width: auto;
+}
+
+h1, h2 {
+  letter-spacing: 5px;
+  font-weight: 800;
+}
+
+.paragraphe{
+  font-family: Playfair Display;
+  font-size: 1em;
+}
